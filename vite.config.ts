@@ -13,7 +13,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@app/global': path.join(__dirname, './apps/global'),
+      '@global': path.join(__dirname, './global'),
       src: path.join(__dirname, './src'),
     },
   },

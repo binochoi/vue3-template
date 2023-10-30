@@ -61,8 +61,6 @@ importers:
         specifier: ^1.8.5
         version: 1.8.20(typescript@5.2.2)
 
-  apps/global: {}
-
 packages:
 
   /@aashutoshrathi/word-wrap@1.2.6:

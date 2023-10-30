@@ -21,7 +21,7 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {
       "src/*": ["./src/*"],
-      "@app/global/*": ["./apps/global/*"],
+      "@global/*": ["./global/*"],
     },
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
