@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { greeting } from '@app/global/index';
+import { greeting } from '@global/index';
 
 </script>
 <template>
