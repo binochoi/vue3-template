@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: app
+    build:
+      dockerfile: ci/Dockerfile.dev
+    ports:
+      - "${PORT}:${PORT}"
+      - "${HMR_PORT}:24678"
+    volumes:
+      - ./:/app
+    env_file:
+      - ./.env
+    command: pnpm dev
+    platform: linux/amd64
+    networks:
+      - app-net
+
+networks:
+  app-net:
+    external: true

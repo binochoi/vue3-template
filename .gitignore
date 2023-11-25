@@ -1,3 +1,6 @@
+components.d.ts
+
+.env
 # Logs
 logs
 *.log
