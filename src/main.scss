@@ -1,3 +1,79 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --color-primary: 196, 49%, 60%;
+    --color-secondary: 60, 100%, 67%;
+    --app-bg-color: 0, 0%, 100%;
+    --app-text-color: 0, 0%, 10%;
+}
+
+html,
+body,
+#app,
+[page] {
+    padding: 0 !important;
+    @apply w-full h-full overflow-hidden;
+
+    background-color: hsl(var(--app-bg-color));
+    color: hsl(var(--app-text-color));
+}
+
+body.dark {
+    --app-bg-color: 0, 0%, 10%;
+    --app-text-color: 0, 0%, 100%;
+}
+
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+    user-select: none;
+}
+
+a {
+    @apply hover:underline cursor-pointer
+}
+
+*::-webkit-scrollbar {
+    background-color: hsla(var(--color-primary), 10%);
+    width: 5px;
+}
+
+/* background of the scrollbar except button or resizer */
+*::-webkit-scrollbar-track {
+    background-color: hsla(var(--color-primary), 10%);
+}
+
+/* scrollbar itself */
+*::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--color-primary));
+    border-radius: 16px;
+    border: 1px solid hsl(var(--color-primary));
+}
+
+/* set button(top and bottom of the scrollbar) */
+*::-webkit-scrollbar-button {
+    display: none;
+}
+
+::selection {
+    background-color: hsla(var(--color-primary), 100%);
+    color: hsla(var(--color-secondary), 100%);
+}
+
+.vfm--overlay {
+    background-color: hsla(var(--app-text-color), 0.2) !important;
+}
+
+
+.van-dialog,
+.van-dialog__confirm,
+.van-dialog__confirm:active,
+.van-dialog__content--isolated,
+.van-dialog__message,
+.van-button--default {
+    background: hsl(var(--app-bg-color)) !important;
+    color: hsl(var(--app-text-color)) !important;
+}
