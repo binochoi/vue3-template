@@ -13,6 +13,7 @@
   "dependencies": {
     "@ionic/vue": "^7.5.6",
     "@ionic/vue-router": "^7.5.6",
+    "@noction/vue-bezier": "^1.0.5",
     "@types/node": "^20.8.8",
     "@vant/auto-import-resolver": "^1.0.2",
     "@vitejs/plugin-vue": "^4.2.3",

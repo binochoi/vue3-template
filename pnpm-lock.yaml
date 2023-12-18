@@ -14,6 +14,9 @@ importers:
       '@ionic/vue-router':
         specifier: ^7.5.6
         version: 7.5.6
+      '@noction/vue-bezier':
+        specifier: ^1.0.5
+        version: 1.0.5
       '@types/node':
         specifier: ^20.8.8
         version: 20.8.8
@@ -463,6 +466,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
+    dev: false
+
+  /@noction/vue-bezier@1.0.5:
+    resolution: {integrity: sha512-vxdomUXg6/TEIAFvj4B5wl5IVXB4CKkStUVWTMoGTonNqJVuq506Q8K6fhR9IzvHkWz4jIEBNh8bJuyfE3rcKQ==}
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
