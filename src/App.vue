@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+import { ModalsContainer } from 'vue-final-modal';
+</script>
 <template>
-  <RouterView />
+  <RouterView page />
+  <ModalsContainer />
 </template>
