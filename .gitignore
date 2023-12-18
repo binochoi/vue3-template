@@ -1,4 +1,5 @@
 components.d.ts
+typed-router.d.ts
 
 .env
 # Logs
