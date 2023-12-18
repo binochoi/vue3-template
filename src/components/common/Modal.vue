@@ -42,7 +42,7 @@ onMounted(async () => {
   </VueFinalModal>
 </template>
 
-<style>
+<style scoped>
 .board {
   @apply bg-[hsl(var(--app-bg-color))] rounded-2xl shadow-md;
 }
