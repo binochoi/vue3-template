@@ -19,6 +19,11 @@ export default defineConfig({
         VueRouterAutoImports,
         unheadVueComposablesImports,
       ],
+      dirs: [
+        './src/composables/**',
+        './src/stores/**',
+        './src/utils/**',
+      ],
     }),
     Components({
       resolvers: [VantResolver()],

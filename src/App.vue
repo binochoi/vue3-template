@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { ModalsContainer } from 'vue-final-modal';
-import { useConfigStore } from './stores/useConfigStore';
 
 const config = useConfigStore();
 useHead({
