@@ -6,11 +6,16 @@ import { VantResolver } from '@vant/auto-import-resolver';
 import VueRouter from 'unplugin-vue-router/vite';
 import AutoImport from 'unplugin-auto-import/vite';
 import { VueRouterAutoImports } from 'unplugin-vue-router';
+import { unheadVueComposablesImports } from '@unhead/vue';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     AutoImport({
-      imports: ['vue', VueRouterAutoImports],
+      imports: [
+        'vue',
+        VueRouterAutoImports,
+        unheadVueComposablesImports,
+      ],
     }),
     Components({
       resolvers: [VantResolver()],
