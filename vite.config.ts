@@ -11,14 +11,14 @@ export default defineConfig({
     AutoImport({
       imports: ['vue'],
     }),
+    Components({
+      resolvers: [VantResolver()],
+    }),
     VueRouter({ /* options */ }),
     vue({
       script: {
         defineModel: true,
       },
-    }),
-    Components({
-      resolvers: [VantResolver()],
     }),
   ],
   resolve: {
