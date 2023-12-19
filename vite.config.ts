@@ -7,8 +7,11 @@ import VueRouter from 'unplugin-vue-router/vite';
 import AutoImport from 'unplugin-auto-import/vite';
 import { VueRouterAutoImports } from 'unplugin-vue-router';
 import { unheadVueComposablesImports } from '@unhead/vue';
+
+const envPrefixes = ['APP_'];
 // https://vitejs.dev/config/
 export default defineConfig({
+  envPrefix: envPrefixes,
   plugins: [
     AutoImport({
       imports: [
