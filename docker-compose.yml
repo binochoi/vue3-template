@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  app:
-    container_name: app
+  vue3-template:
+    container_name: vue3-template
     build:
       dockerfile: ci/Dockerfile.dev
     ports:
