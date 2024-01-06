@@ -6,6 +6,18 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+      screens: {
+        mobile: {
+          max: '640px',
+        },
+        'min-tablet': '640px',
+        'max-tablet': {
+          max: '1024px',
+        },
+        desktop: {
+          min: '1024px',
+        },
+      },
       colors: {
         primary: 'hsla(var(--color-primary), <alpha-value>)',
         secondary: 'hsla(var(--color-secondary), <alpha-value>)',
