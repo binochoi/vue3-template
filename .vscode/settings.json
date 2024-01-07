@@ -3,6 +3,6 @@
     "scss.lint.unknownAtRules": "ignore",
     "typescript.preferences.autoImportFileExcludePatterns": ["vue-router"],
     "editor.codeActionsOnSave": {
-        "source.fixAll": true,
+        "source.fixAll": "explicit"
     },
 }
