@@ -85,8 +85,8 @@ importers:
         specifier: ^0.0.24
         version: 0.0.24(@typescript-eslint/parser@6.9.0)(eslint@8.52.0)(typescript@5.2.2)
       '@binochoi/eslint-config-vue3':
-        specifier: ^0.0.12
-        version: 0.0.12(eslint@8.52.0)
+        specifier: ^0.0.13
+        version: 0.0.13(eslint@8.52.0)
       '@typescript-eslint/parser':
         specifier: ^6.9.0
         version: 6.9.0(eslint@8.52.0)(typescript@5.2.2)
@@ -174,8 +174,8 @@ packages:
       - typescript
     dev: true
 
-  /@binochoi/eslint-config-vue3@0.0.12(eslint@8.52.0):
-    resolution: {integrity: sha512-SrGUTFBjwN0sucTb7H26uuyxbOO4rFuHMiHPYq4TVt+7fA/Bay2cWCiieCICXxmGYCDAwJ5GC8hNUR2xCDJzEA==}
+  /@binochoi/eslint-config-vue3@0.0.13(eslint@8.52.0):
+    resolution: {integrity: sha512-Ket1O4UJ/L2i0IZjopq02fuKNdYF3NgieE5FIJhrxIhH/CGKTaNMjaxACR2RCY+Q50bScJ+LKWt4E3SOJI0zkg==}
     dependencies:
       eslint-plugin-vue: 9.18.0(eslint@8.52.0)
     transitivePeerDependencies:
