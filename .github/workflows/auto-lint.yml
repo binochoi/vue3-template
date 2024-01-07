@@ -1,0 +1,27 @@
+name: Auto lint
+on:
+  push:
+jobs:
+  lint-by-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: install pnpm
+        run: npm i -g pnpm
+      - name: Install Dependencies
+        run: pnpm i
+      - name: lint
+        run: pnpm lint
+      - name: auto version update
+        run: |
+          npm version patch
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_author: Linter Bot <actions@github.com>
+          commit_message: 'style(lint):'
