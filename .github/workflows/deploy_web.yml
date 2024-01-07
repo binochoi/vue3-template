@@ -34,7 +34,7 @@ jobs:
     
     - name: Build and push container image
       id: build-image
-      uses: docker/build-push-action@v3
+      uses: docker/build-push-action@v5
       with:
         context: ./packages/app
         file: ./packages/app/ci/Dockerfile.prod
