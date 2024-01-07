@@ -22,5 +22,5 @@ jobs:
         run: pnpm lint
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_author: Linter Bot <actions@github.com>
+          commit_author: linter[bot] <actions@github.com>
           commit_message: 'style(lint):'
