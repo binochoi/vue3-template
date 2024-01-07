@@ -10,7 +10,7 @@
             "automerge": true
         },
         {
-            "matchUpdateTypes": ["major", "minor", "patch"],
+            "matchUpdateTypes": ["minor", "patch"],
             "automerge": true
         }
     ],
