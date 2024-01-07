@@ -16,6 +16,8 @@ export default defineConfig({
     AutoImport({
       imports: [
         'vue',
+        '@vueuse/core',
+        'pinia',
         VueRouterAutoImports,
         unheadVueComposablesImports,
       ],
