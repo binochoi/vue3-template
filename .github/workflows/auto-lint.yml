@@ -18,9 +18,6 @@ jobs:
         run: pnpm i
       - name: lint
         run: pnpm lint
-      - name: auto version update
-        run: |
-          npm version patch
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_author: Linter Bot <actions@github.com>
