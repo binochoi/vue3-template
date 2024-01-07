@@ -7,7 +7,7 @@
     "app": "pnpm --ignore-workspace-root-check",
     "dev": "pnpm i && vite --host 0.0.0.0 --port $PORT",
     "check": "vue-tsc",
-    "build": "vite build && p check",
+    "build": "vite build && pnpm check",
     "preview": "vite preview"
   },
   "dependencies": {
