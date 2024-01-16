@@ -12,6 +12,7 @@
     "lint": "eslint --ext .ts,.vue src --fix"
   },
   "dependencies": {
+    "@iconify/vue": "^4.1.1",
     "@ionic/vue": "^7.5.6",
     "@ionic/vue-router": "^7.5.6",
     "@noction/vue-bezier": "^1.0.5",
@@ -39,7 +40,7 @@
   },
   "devDependencies": {
     "@binochoi/eslint-config-typescript": "^0.0.25",
-    "@binochoi/eslint-config-vue3": "^0.0.13",
+    "@binochoi/eslint-config-vue3": "^0.0.14",
     "@typescript-eslint/parser": "^6.9.0",
     "eslint": "^8.52.0"
   }
