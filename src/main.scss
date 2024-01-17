@@ -30,6 +30,7 @@ body.dark {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     outline: none;
     user-select: none;
+    @apply break-keep;
 }
 
 a {
