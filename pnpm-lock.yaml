@@ -16,7 +16,7 @@ importers:
         version: 7.7.3
       '@ionic/vue-router':
         specifier: ^7.5.6
-        version: 7.5.6
+        version: 7.7.3
       '@noction/vue-bezier':
         specifier: ^1.0.5
         version: 1.0.5
@@ -482,14 +482,6 @@ packages:
       vue: 3.3.7(typescript@5.2.2)
     dev: false
 
-  /@ionic/core@7.5.6:
-    resolution: {integrity: sha512-bYQp2twwm61uA0Q31ToVIpQWsiQ9so1dRoWZPD+l+y4fVuFmOCLYeS6XTLTm73jVBq40JfEcsac7eYC4DxoemQ==}
-    dependencies:
-      '@stencil/core': 4.7.2
-      ionicons: 7.2.1
-      tslib: 2.6.2
-    dev: false
-
   /@ionic/core@7.7.3:
     resolution: {integrity: sha512-DSv6DPuiLU2MXsgDAXKFJW5OXxT7EyPy2jcQf03RcWooWeFryy979mqotPw7BgUuWt/fVGuz2tl3peAJGSqmDQ==}
     dependencies:
@@ -498,17 +490,10 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@ionic/vue-router@7.5.6:
-    resolution: {integrity: sha512-Q1eiTUSbFSLDyqsluyFS4Xln5zhtQrlobp3UPyLZX+R5Tj2+rdJ37UiPp3uWSTPfJrrhFl1D9G6xg/2JwBAu2Q==}
+  /@ionic/vue-router@7.7.3:
+    resolution: {integrity: sha512-0P2pDnwpHOVyCrn2IkH2kuU7vJF0vebLTG7P7mt55+sXVQzqcU3bywTTAI3IKxrLVUqvPBcQvg8LwqEmacK5bA==}
     dependencies:
-      '@ionic/vue': 7.5.6
-    dev: false
-
-  /@ionic/vue@7.5.6:
-    resolution: {integrity: sha512-AtHx+mKFp2zN21PMLgkbZwPKvSF+HZtilqDyLBW+LdLVwphjWoGa+dZHiDmhyAYkO8u10rU8cPnlzMd77ArDXA==}
-    dependencies:
-      '@ionic/core': 7.5.6
-      ionicons: 7.2.1
+      '@ionic/vue': 7.7.3
     dev: false
 
   /@ionic/vue@7.7.3:
@@ -593,12 +578,6 @@ packages:
 
   /@stencil/core@4.12.3:
     resolution: {integrity: sha512-9XkE9i2aXPlApMNeq3tbVHKx0eAfDc7QGyIl6t5NMuQFTOGL5Xd1soF38d+hCIDpUoUUtY7jXWg+iFrlrMzQhg==}
-    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
-    hasBin: true
-    dev: false
-
-  /@stencil/core@4.7.2:
-    resolution: {integrity: sha512-sPPDYrXiTbfeUF5CCyfqysXK/yfTHC4xYR1+nHzGkS2vhRSBOLp0oPuB+xkJLKA+K2ZqDJUxpOnDxy1CLWwBXA==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
     dev: false
@@ -2263,12 +2242,6 @@ packages:
       hasown: 2.0.0
       side-channel: 1.0.4
     dev: true
-
-  /ionicons@7.2.1:
-    resolution: {integrity: sha512-2pvCM7DGVEtbbj48PJzQrCADCQrqjU1nUYX9l9PyEWz3ZfdnLdAouqwPxLdl8tbaF9cE7OZRSlyQD7oLOLnGoQ==}
-    dependencies:
-      '@stencil/core': 4.7.2
-    dev: false
 
   /ionicons@7.2.2:
     resolution: {integrity: sha512-I3iYIfc9Q9FRifWyFSwTAvbEABWlWY32i0sAVDDPGYnaIZVugkLCZFbEcrphW6ixVPg8tt1oLwalo/JJwbEqnA==}
