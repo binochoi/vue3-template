@@ -46,7 +46,7 @@ importers:
         version: 2.1.7(typescript@5.2.2)(vue@3.3.7)
       sass:
         specifier: ^1.69.4
-        version: 1.69.4
+        version: 1.71.1
       tailwindcss:
         specifier: ^3.3.4
         version: 3.3.4(ts-node@10.9.2)
@@ -70,7 +70,7 @@ importers:
         version: 4.8.5(vue@3.3.7)
       vite:
         specifier: ^4.4.5
-        version: 4.5.2(@types/node@20.11.20)(sass@1.69.4)
+        version: 4.5.2(@types/node@20.11.20)(sass@1.71.1)
       vue:
         specifier: ^3.3.4
         version: 3.3.7(typescript@5.2.2)
@@ -862,7 +862,7 @@ packages:
       vite: ^4.0.0 || ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.5.2(@types/node@20.11.20)(sass@1.69.4)
+      vite: 4.5.2(@types/node@20.11.20)(sass@1.71.1)
       vue: 3.3.7(typescript@5.2.2)
     dev: false
 
@@ -2184,8 +2184,8 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /immutable@4.3.4:
-    resolution: {integrity: sha512-fsXeu4J4i6WNWSikpI88v/PcVflZz+6kMhUfIwc5SY+poQRPnaf5V7qds6SUyUN3cVxEzuCab7QIoLOQ+DQ1wA==}
+  /immutable@4.3.5:
+    resolution: {integrity: sha512-8eabxkth9gZatlwl5TBuJnCsoTADlL6ftEr7A4qgdaTsPyreilDSnUk57SO+jfKcNtxPa22U5KK6DSeAYhpBJw==}
     dev: false
 
   /import-fresh@3.3.0:
@@ -2921,13 +2921,13 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /sass@1.69.4:
-    resolution: {integrity: sha512-+qEreVhqAy8o++aQfCJwp0sklr2xyEzkm9Pp/Igu9wNPoe7EZEQ8X/MBvvXggI2ql607cxKg/RKOwDj6pp2XDA==}
+  /sass@1.71.1:
+    resolution: {integrity: sha512-wovtnV2PxzteLlfNzbgm1tFXPLoZILYAMJtvoXXkD7/+1uP41eKkIt1ypWq5/q2uT94qHjXehEYfmjKOvjL9sg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
-      chokidar: 3.5.3
-      immutable: 4.3.4
+      chokidar: 3.6.0
+      immutable: 4.3.5
       source-map-js: 1.0.2
     dev: false
 
@@ -3446,7 +3446,7 @@ packages:
       vue: 3.3.7(typescript@5.2.2)
     dev: false
 
-  /vite@4.5.2(@types/node@20.11.20)(sass@1.69.4):
+  /vite@4.5.2(@types/node@20.11.20)(sass@1.71.1):
     resolution: {integrity: sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3478,7 +3478,7 @@ packages:
       esbuild: 0.18.20
       postcss: 8.4.35
       rollup: 3.29.4
-      sass: 1.69.4
+      sass: 1.71.1
     optionalDependencies:
       fsevents: 2.3.3
     dev: false
