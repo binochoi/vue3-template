@@ -64,7 +64,7 @@ importers:
         version: 0.26.0(vue@3.4.20)
       unplugin-vue-router:
         specifier: ^0.7.0
-        version: 0.7.0(vue-router@4.2.5)(vue@3.4.20)
+        version: 0.7.0(vue-router@4.3.0)(vue@3.4.20)
       vant:
         specifier: ^4.8.0
         version: 4.8.5(vue@3.4.20)
@@ -79,7 +79,7 @@ importers:
         version: 4.5.4(@vueuse/core@10.9.0)(@vueuse/integrations@10.9.0)(focus-trap@7.5.4)(vue@3.4.20)
       vue-router:
         specifier: ^4.2.5
-        version: 4.2.5(vue@3.4.20)
+        version: 4.3.0(vue@3.4.20)
       vue-tsc:
         specifier: ^1.8.5
         version: 1.8.27(typescript@5.3.3)
@@ -934,6 +934,10 @@ packages:
 
   /@vue/devtools-api@6.5.1:
     resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
+    dev: false
+
+  /@vue/devtools-api@6.6.1:
+    resolution: {integrity: sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==}
     dev: false
 
   /@vue/language-core@1.8.27(typescript@5.3.3):
@@ -3357,7 +3361,7 @@ packages:
       - supports-color
     dev: false
 
-  /unplugin-vue-router@0.7.0(vue-router@4.2.5)(vue@3.4.20):
+  /unplugin-vue-router@0.7.0(vue-router@4.3.0)(vue@3.4.20):
     resolution: {integrity: sha512-ddRreGq0t5vlSB7OMy4e4cfU1w2AwBQCwmvW3oP/0IHQiokzbx4hd3TpwBu3eIAFVuhX2cwNQwp1U32UybTVCw==}
     peerDependencies:
       vue-router: ^4.1.0
@@ -3377,7 +3381,7 @@ packages:
       pathe: 1.1.1
       scule: 1.1.1
       unplugin: 1.5.1
-      vue-router: 4.2.5(vue@3.4.20)
+      vue-router: 4.3.0(vue@3.4.20)
       yaml: 2.3.3
     transitivePeerDependencies:
       - rollup
@@ -3536,12 +3540,12 @@ packages:
       vue: 3.4.20(typescript@5.3.3)
     dev: false
 
-  /vue-router@4.2.5(vue@3.4.20):
-    resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==}
+  /vue-router@4.3.0(vue@3.4.20):
+    resolution: {integrity: sha512-dqUcs8tUeG+ssgWhcPbjHvazML16Oga5w34uCUmsk7i0BcnskoLGwjpa15fqMr2Fa5JgVBrdL2MEgqz6XZ/6IQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      '@vue/devtools-api': 6.5.1
+      '@vue/devtools-api': 6.6.1
       vue: 3.4.20(typescript@5.3.3)
     dev: false
 
