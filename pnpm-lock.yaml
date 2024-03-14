@@ -46,7 +46,7 @@ importers:
         version: 2.1.7(typescript@5.4.2)(vue@3.4.21)
       sass:
         specifier: ^1.69.4
-        version: 1.71.1
+        version: 1.72.0
       tailwindcss:
         specifier: ^3.3.4
         version: 3.4.1(ts-node@10.9.2)
@@ -70,7 +70,7 @@ importers:
         version: 4.8.5(vue@3.4.21)
       vite:
         specifier: ^4.4.5
-        version: 4.5.2(@types/node@20.11.27)(sass@1.71.1)
+        version: 4.5.2(@types/node@20.11.27)(sass@1.72.0)
       vue:
         specifier: ^3.3.4
         version: 3.4.21(typescript@5.4.2)
@@ -851,7 +851,7 @@ packages:
       vite: ^4.0.0 || ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.5.2(@types/node@20.11.27)(sass@1.71.1)
+      vite: 4.5.2(@types/node@20.11.27)(sass@1.72.0)
       vue: 3.4.21(typescript@5.4.2)
     dev: false
 
@@ -2893,8 +2893,8 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /sass@1.71.1:
-    resolution: {integrity: sha512-wovtnV2PxzteLlfNzbgm1tFXPLoZILYAMJtvoXXkD7/+1uP41eKkIt1ypWq5/q2uT94qHjXehEYfmjKOvjL9sg==}
+  /sass@1.72.0:
+    resolution: {integrity: sha512-Gpczt3WA56Ly0Mn8Sl21Vj94s1axi9hDIzDFn9Ph9x3C3p4nNyvsqJoQyVXKou6cBlfFWEgRW4rT8Tb4i3XnVA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -3445,7 +3445,7 @@ packages:
       vue: 3.4.21(typescript@5.4.2)
     dev: false
 
-  /vite@4.5.2(@types/node@20.11.27)(sass@1.71.1):
+  /vite@4.5.2(@types/node@20.11.27)(sass@1.72.0):
     resolution: {integrity: sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3477,7 +3477,7 @@ packages:
       esbuild: 0.18.20
       postcss: 8.4.35
       rollup: 3.29.4
-      sass: 1.71.1
+      sass: 1.72.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: false
