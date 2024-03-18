@@ -37,7 +37,7 @@ importers:
         version: 10.9.0(vue@3.4.21)
       autoprefixer:
         specifier: ^10.4.16
-        version: 10.4.18(postcss@8.4.35)
+        version: 10.4.18(postcss@8.4.36)
       dayjs:
         specifier: ^1.11.10
         version: 1.11.10
@@ -67,7 +67,7 @@ importers:
         version: 0.7.0(vue-router@4.3.0)(vue@3.4.21)
       vant:
         specifier: ^4.8.0
-        version: 4.8.6(vue@3.4.21)
+        version: 4.8.7(vue@3.4.21)
       vite:
         specifier: ^4.4.5
         version: 4.5.2(@types/node@20.11.28)(sass@1.72.0)
@@ -1240,7 +1240,7 @@ packages:
       - rollup
     dev: false
 
-  /autoprefixer@10.4.18(postcss@8.4.35):
+  /autoprefixer@10.4.18(postcss@8.4.36):
     resolution: {integrity: sha512-1DKbDfsr6KUElM6wg+0zRNkB/Q7WcKYAaK+pzXn+Xqmszm/5Xa9coeNdtP88Vi+dPzZnMjhge8GIV49ZQkDa+g==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -1252,7 +1252,7 @@ packages:
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.35
+      postcss: 8.4.36
       postcss-value-parser: 4.2.0
     dev: false
 
@@ -2799,6 +2799,15 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
+  /postcss@8.4.36:
+    resolution: {integrity: sha512-/n7eumA6ZjFHAsbX30yhHup/IMkOmlmvtEi7P+6RMYf+bGJSUHc3geH4a0NSZxAz/RJfiS9tooCTs9LAVYUZKw==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.0
+      source-map-js: 1.1.0
+    dev: false
+
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -2968,6 +2977,11 @@ packages:
 
   /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /source-map-js@1.1.0:
+    resolution: {integrity: sha512-9vC2SfsJzlej6MAaMPLu8HiBSHGdRAJ9hVFYN1ibZoNkeanmDmLUcIrj6G9DGL7XMJ54AKg/G75akXl1/izTOw==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -3430,8 +3444,8 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: false
 
-  /vant@4.8.6(vue@3.4.21):
-    resolution: {integrity: sha512-1k1D5wDivY8n8BYD52kM042hR8avV3LV5kDeic3ce4XgqtJl9vlLX0ASyPYeNIe/ufSe2TRvlZ8K12+uPpe26g==}
+  /vant@4.8.7(vue@3.4.21):
+    resolution: {integrity: sha512-puBsqVzC94niN2fFLbkpZGInE8fYK+jjoOAhQ7XAreFCn8xkxnjGpcLNoLvQSP2hUYKN7+kES1bbz/h7RHF7vQ==}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
