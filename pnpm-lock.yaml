@@ -16,7 +16,7 @@ importers:
         version: 7.8.2
       '@ionic/vue-router':
         specifier: ^7.5.6
-        version: 7.8.1
+        version: 7.8.2
       '@noction/vue-bezier':
         specifier: ^1.0.5
         version: 1.0.5
@@ -457,14 +457,6 @@ packages:
       vue: 3.4.21(typescript@5.4.3)
     dev: false
 
-  /@ionic/core@7.8.1:
-    resolution: {integrity: sha512-SsoDy0HaifCcWBlcyRIpTceboz6tSg4gjNr/LRGJyg+r2bWdoG3jeuQDg0Affox8dar7QvODk3AWO/7RFWLOfg==}
-    dependencies:
-      '@stencil/core': 4.13.0
-      ionicons: 7.3.0
-      tslib: 2.6.2
-    dev: false
-
   /@ionic/core@7.8.2:
     resolution: {integrity: sha512-1Iwe4XSaEYD0u7U/AnnKYNRXmPxx/doTl6pExXq/nlEd7q0AykRkPEy5rClqrQcJOrgFogAx1FwSObfgm0xnNw==}
     dependencies:
@@ -473,17 +465,10 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@ionic/vue-router@7.8.1:
-    resolution: {integrity: sha512-o0TAFStZ6VuD01iq3oMJZiwhzRSlstOhOBheu08RBbZHAnQvY28kKsQypTFRYiQv4E6Ayc95b7ZeayMQt3wu+w==}
+  /@ionic/vue-router@7.8.2:
+    resolution: {integrity: sha512-axEnjH1VICf9twLRIkuka3REJ+bnMZpf5CN5qaioGUnYh4dgw7mSDCX1UyMsgjI1FsfDqP/7CmLxsOjqEWBucw==}
     dependencies:
-      '@ionic/vue': 7.8.1
-    dev: false
-
-  /@ionic/vue@7.8.1:
-    resolution: {integrity: sha512-jEOss4oslEB38ASaBsYNRMpkLq6IYWmmscHAR01reEBiLt1144SqxQ3y4mhgHBdAP7gZrULMFdVTDUdJdlSq9Q==}
-    dependencies:
-      '@ionic/core': 7.8.1
-      ionicons: 7.3.0
+      '@ionic/vue': 7.8.2
     dev: false
 
   /@ionic/vue@7.8.2:
@@ -2163,12 +2148,6 @@ packages:
       hasown: 2.0.0
       side-channel: 1.0.4
     dev: true
-
-  /ionicons@7.3.0:
-    resolution: {integrity: sha512-l9quySYi+o4T6mFzhKRyU/1nKc2Zs0zxs7jWcq9iVRhRPQondV11jYqLTed0lVVXHfGrBCfnedKl9D6BCnA1UQ==}
-    dependencies:
-      '@stencil/core': 4.13.0
-    dev: false
 
   /ionicons@7.3.1:
     resolution: {integrity: sha512-1boG4EQTBBpQ4/0PU60Yi78Iw/k8iNtKu9c0NmsbzHGnWAcwpiovG9Wi/rk5UlF+DC+CR4XDCxKo91YqvAxkww==}
