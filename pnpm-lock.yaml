@@ -67,7 +67,7 @@ importers:
         version: 0.7.0(vue-router@4.3.0)(vue@3.4.21)
       vant:
         specifier: ^4.8.0
-        version: 4.8.7(vue@3.4.21)
+        version: 4.8.8(vue@3.4.21)
       vite:
         specifier: ^4.4.5
         version: 4.5.3(@types/node@20.12.2)(sass@1.72.0)
@@ -3435,8 +3435,8 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: false
 
-  /vant@4.8.7(vue@3.4.21):
-    resolution: {integrity: sha512-puBsqVzC94niN2fFLbkpZGInE8fYK+jjoOAhQ7XAreFCn8xkxnjGpcLNoLvQSP2hUYKN7+kES1bbz/h7RHF7vQ==}
+  /vant@4.8.8(vue@3.4.21):
+    resolution: {integrity: sha512-z7jouy1QpmkgogMhUiG6Z5fnTMA/0GdDUeJwqKWD/NdxSAeStzk5Zv3xGvVZ4LxOSgeaOTJWPTE3Z4NUt/1O0w==}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
