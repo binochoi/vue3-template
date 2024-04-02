@@ -1,0 +1,5 @@
+{
+  "verbose": false,
+  "ignore": ["dist", "*.test.ts"],
+  "ext": "ts,js,json"
+}

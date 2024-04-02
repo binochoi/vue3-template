@@ -1,3 +1,33 @@
 {
-  "main": "index.ts"
+  "name": "global",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "packageManager": "pnpm@8.15.1",
+  "scripts": {
+    "build": "tsc && swc . -w --out-dir dist && cp tsconfig.json dist",
+    "watch-build": "nodemon --exec \"npm run build\""
+  },
+  "peerDependencies": {
+    "@nestjs/swagger": "^7.1.15"
+  },
+  "dependencies": {
+    "@binochoi/nestjs-mapped-types": "^0.0.5",
+    "@swc/cli": "^0.3.0",
+    "@swc/core": "^1.4.8",
+    "@types/pg": "latest",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@binochoi/eslint-config-typescript": "^0.0.25",
+    "@typescript-eslint/parser": "^6.0.0",
+    "nodemon": "^3.1.0"
+  }
 }
