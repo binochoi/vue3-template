@@ -16,7 +16,6 @@
     "@nestjs/swagger": "^7.1.15"
   },
   "dependencies": {
-    "@binochoi/nestjs-mapped-types": "^0.0.5",
     "@swc/cli": "^0.3.0",
     "@swc/core": "^1.4.8",
     "@types/pg": "latest",

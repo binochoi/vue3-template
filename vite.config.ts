@@ -39,6 +39,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
+      '@global': path.join(__dirname, './global/dist'),
       src: path.join(__dirname, './src'),
     },
   },
