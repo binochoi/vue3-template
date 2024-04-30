@@ -19,7 +19,7 @@ importers:
         version: 7.8.2
       '@noction/vue-bezier':
         specifier: ^1.0.5
-        version: 1.0.5
+        version: 1.11.2
       '@types/node':
         specifier: ^20.8.8
         version: 20.12.2
@@ -527,8 +527,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@noction/vue-bezier@1.0.5:
-    resolution: {integrity: sha512-vxdomUXg6/TEIAFvj4B5wl5IVXB4CKkStUVWTMoGTonNqJVuq506Q8K6fhR9IzvHkWz4jIEBNh8bJuyfE3rcKQ==}
+  /@noction/vue-bezier@1.11.2:
+    resolution: {integrity: sha512-xgya0r2/v2l4KzFPZOyOqf9BL2EKHYX800EgbTwxkaYa+O39JjVqDwaEoifvCH/iObNVBG/D87EOjiflGEKxMw==}
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
